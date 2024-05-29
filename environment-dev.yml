@@ -11,3 +11,6 @@ dependencies:
   - cosapp
   - pyoccad
   - pythonocc-core
+  - jupyterlite-core==0.3.0
+  - jupyterlab~=4.1.6
+  - notebook~=7.1.2
