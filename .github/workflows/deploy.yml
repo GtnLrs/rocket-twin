@@ -32,7 +32,7 @@ jobs:
           environment-name: test_env
       - name: Build the JupyterLite site
         run: |
-          jupyter lite build --contents content --output-dir dist
+          jupyter lite build --contents rocket_twin --output-dir dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
